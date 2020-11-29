@@ -1,0 +1,37 @@
+.Slide {
+  &__content {
+    display: flex;
+    &.--one-column {
+      flex-direction: column;
+
+      .Slide__image {
+        padding: 0;
+      }
+    }
+  }
+
+  &__image {
+    padding-left: 2rem;
+    flex: 0 1 30%;
+  }
+
+  &__text {
+    flex: 0 1 70%;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+
+    a{
+      position: fixed;
+      top: 50%;
+    }
+    a:first-child {
+      left: 3rem;
+    }
+    a:last-child {
+      right: 3rem;
+    }
+  }
+}
