@@ -1,0 +1,24 @@
+.Lection {
+  &__title {
+    text-align: center;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      content: '';
+      top: 50%;
+      height: 1px;
+      left: 0;
+      width: 100%;
+      background: rgba(0,0,0, .1);
+    }
+
+    span {
+      background: white;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      padding: 0 8px;
+    }
+  }
+}

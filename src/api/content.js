@@ -33,21 +33,21 @@ const data = [
           }
         },
         {
-          id: 3,
-          title: 'HTML tags',
-          page: 3,
+          id: 4,
+          title: 'What a Tag does mean?',
           image: {
             path: 'https://2.downloader.disk.yandex.ru/preview/7e06e3af0dd312375396ed5e54e0609f07de4f132244d0420dd0525a98622784/inf/akNsdmz-KUSqC5nifSWVOdBX6_F1hLz5kh6dl9PSZOhPePBxVttFMCnM_Yi5EtZxULcjbe4vkasO8XeEmPpxIA%3D%3D?uid=220543000&filename=element.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=220543000&tknv=v2&size=1366x689',
             size: 'half',
             horizontal: true,
             alt: 'tag'
-          }
+          },
+          page: 4
         },
         {
-          id: 4,
-          title: 'What a Tag does mean?',
-          page: 4
-        }
+          id: 3,
+          title: 'HTML tags',
+          page: 3,
+        },
       ]
       
     },

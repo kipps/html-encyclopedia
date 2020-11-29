@@ -33,3 +33,14 @@ img {
     width: auto;
   }
 }
+
+a {
+  text-decoration: none;
+  &:active, &:focus, & {
+    color: chocolate;
+  }
+
+  &:hover {
+    color: darken(chocolate, 20%);
+  }
+}
