@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/" component={LectionConainer}/>
           <Route path="/lection/:lectionId" component={Lection}/>
           <Route path="/lection/:lectionId/slide/:slideId" component={Slide}/>
-          <Route path="/lection/1/slide/4/" component={TagsList} />
+          <Route path="/lection/1/slide/5/" component={TagsList} />
         </div>
       </Router>
     </div>
