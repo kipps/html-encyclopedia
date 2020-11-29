@@ -1,0 +1,31 @@
+@each $name, $value  in $indents {
+  .m {
+    &t-#{$name} {
+      margin-top: $value;
+    }
+    &l-#{$name} {
+      margin-left: $value;
+    }
+    &r-#{$name} {
+      margin-right: $value;
+    }
+    &b-#{$name} {
+      margin-bottom: $value;
+    }
+  }
+
+  .p {
+    &t-#{$name} {
+      padding-top: $value;
+    }
+    &l-#{$name} {
+      padding-left: $value;
+    }
+    &r-#{$name} {
+      padding-right: $value;
+    }
+    &b-#{$name} {
+      padding-bottom: $value;
+    }
+  }
+}

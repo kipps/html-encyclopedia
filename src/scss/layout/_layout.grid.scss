@@ -1,0 +1,15 @@
+.container {
+  &-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+}
+
+.flex {
+  display: flex;
+
+  .space-between {
+    justify-content: space-between;
+  }
+}
